@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Kees\AndroidStudioProjects\Yamba\Yamba\build\intermediates\pre-dexed\debug\yambaclientlib-aba7bd9f8a2674f641263003d4fd6a78048ea316.jar"
+        jar="C:\Users\Kees\AndroidStudioProjects\Yamba\Yamba\libs\yambaclientlib.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="564ffd3f1dc6779da46f36e4cb78854ee45e6a1b"/>
+    <item
+        dex="C:\Users\Kees\AndroidStudioProjects\Yamba\Yamba\build\intermediates\pre-dexed\debug\support-v4-19.1.0-045441eb69c91158396ded00111ed595d5e00c3a.jar"
+        jar="C:\Users\Kees\AppData\Local\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\Users\Kees\AndroidStudioProjects\Yamba\Yamba\build\intermediates\pre-dexed\debug\classes-9695326fdeb292772f76b069c1953cd943cf5759.jar"
+        jar="C:\Users\Kees\AndroidStudioProjects\Yamba\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+
+</pre-dex-items>
