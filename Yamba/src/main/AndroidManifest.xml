@@ -12,22 +12,17 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <provider
-            android:authorities="nl.noik.yamba.StatusProvider"
-            android:name="nl.noik.yamba.StatusProvider"
-            android:exported="false" />
         <activity
             android:name="nl.noik.yamba.StatusActivity"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:name="nl.noik.yamba.SettingsActivity"
-            android:label="@string/title_activity_settings" >
-        </activity>
-        <activity
-            android:name="nl.noik.yamba.MainActivity"
-            android:label="@string/title_activity_main" >
+            android:label="@string/status_update" >
+            <intent-filter>
+                <action android:name="nl.noik.yamba.action.tweet" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="nl.noik.yamba.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,7 +30,16 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name="nl.noik.yamba.SettingsActivity"
+            android:label="@string/action_settings" >
+        </activity>
+
         <service android:name=".RefreshService" />
+        <provider
+            android:authorities="nl.noik.yamba.StatusProvider"
+            android:name="nl.noik.yamba.StatusProvider"
+            android:exported="false" />
     </application>
 
 </manifest>

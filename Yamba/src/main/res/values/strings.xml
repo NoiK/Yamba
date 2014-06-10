@@ -8,6 +8,7 @@
     <string name="hint_status">What\'s going on?</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="status_update">UPDATE</string>
 //Menu
     <string name="title_activity_settings">Settings</string>
     <string name="tweet">Tweet</string>
