@@ -47,10 +47,11 @@ public class RefreshService extends IntentService {
 
         YambaClient cloud = new YambaClient(username, password);
         try {
-            List<Status> timeline = cloud.getTimeline(0);
+            List<Status> timeline = cloud.getTimeline(2);
             for (Status status : timeline) {
                 Log.d(TAG,
-                        String.format("%s: %s", status.getUser(), status.getCreatedAt()));
+                        String.format("%s: %s: %s", status.getUser(), status.getCreatedAt(),
+                                status.getMessage()));
             }
         } catch (YambaClientException e) {
             Log.e(TAG, "Failed to fetch the timeline", e);
