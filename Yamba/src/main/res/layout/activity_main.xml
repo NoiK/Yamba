@@ -10,7 +10,7 @@
 
     <fragment
         android:id="@+id/fragment_timeline"
-        android:name=".TimelineFragment"
+        android:name="nl.noik.yamba.TimelineFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
