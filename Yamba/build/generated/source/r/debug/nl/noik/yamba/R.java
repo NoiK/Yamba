@@ -945,6 +945,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f090015;
         public static final int action_menu_presenter=0x7f090016;
         public static final int action_mode_close_button=0x7f090024;
+        public static final int action_purge=0x7f09004a;
         public static final int action_refresh=0x7f090049;
         public static final int action_settings=0x7f090047;
         public static final int action_tweet=0x7f090048;
@@ -1072,19 +1073,20 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0c000c;
         public static final int action_settings=0x7f0c000d;
         public static final int app_name=0x7f0c000e;
-        public static final int hello_world=0x7f0c000f;
-        public static final int interval=0x7f0c0010;
-        public static final int interval_summary=0x7f0c0011;
-        public static final int password=0x7f0c0012;
-        public static final int password_summary=0x7f0c0013;
-        public static final int refresh=0x7f0c0014;
-        public static final int status_button_tweet=0x7f0c0015;
-        public static final int status_text_hint=0x7f0c0016;
-        public static final int status_update=0x7f0c0017;
-        public static final int title_activity_main=0x7f0c0018;
-        public static final int tweet=0x7f0c0019;
-        public static final int username=0x7f0c001a;
-        public static final int username_summary=0x7f0c001b;
+        public static final int delete=0x7f0c000f;
+        public static final int hello_world=0x7f0c0010;
+        public static final int interval=0x7f0c0011;
+        public static final int interval_summary=0x7f0c0012;
+        public static final int password=0x7f0c0013;
+        public static final int password_summary=0x7f0c0014;
+        public static final int refresh=0x7f0c0015;
+        public static final int status_button_tweet=0x7f0c0016;
+        public static final int status_text_hint=0x7f0c0017;
+        public static final int status_update=0x7f0c0018;
+        public static final int title_activity_main=0x7f0c0019;
+        public static final int tweet=0x7f0c001a;
+        public static final int username=0x7f0c001b;
+        public static final int username_summary=0x7f0c001c;
     }
     public static final class style {
         /**  Customize your theme here. 
