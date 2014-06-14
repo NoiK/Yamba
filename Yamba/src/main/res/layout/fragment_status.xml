@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_marginRight="17dp"
-        android:text="@string/button_tweet"  />
+        android:text="@string/status_button_tweet"  />
 
     <EditText
         android:id="@+id/editStatus"
@@ -25,7 +25,7 @@
         android:layout_below="@+id/buttonTweet"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="@string/hint_status"
+        android:hint="@string/status_text_hint"
         android:inputType="textMultiLine"
         android:gravity="top">
         <requestFocus />
