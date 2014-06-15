@@ -71,6 +71,12 @@ public class RefreshService extends IntentService {
                         String.format("%s: %s: %s", status.getUser(), status.getCreatedAt(),
                                 status.getMessage()));
             }
+
+            if (count > 0) {
+                sendBroadcast(new Intent(
+                        "nl.noik.yamba.action.NEW_STATUSES")
+                        .putExtra("count", count));
+            }
         } catch (YambaClientException e) {
             Log.e(TAG, "Failed to fetch the timeline", e);
             e.printStackTrace();
