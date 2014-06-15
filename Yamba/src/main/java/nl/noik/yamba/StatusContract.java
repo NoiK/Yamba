@@ -20,7 +20,7 @@ public class StatusContract {
     public static final int STATUS_DIR = 2;
     public static final String STATUS_TYPE_ITEM = "vnd.android.cursor.item/vnd.nl.noik.yamba.provider.status";
     public static final String STATUS_TYPE_DIR = "vnd.android.cursor.dir/vnd.nl.noik.yamba.provider.status";
-    public static final String DEFAULT_SORT = Column.CREATED_AT + " ASC";
+    public static final String DEFAULT_SORT = Column.CREATED_AT + " DESC";
 
     public class Column {
         public static final String ID = BaseColumns._ID;

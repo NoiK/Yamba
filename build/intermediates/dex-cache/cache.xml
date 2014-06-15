@@ -6,7 +6,7 @@
         jar="C:\Users\Kees\AndroidStudioProjects\Yamba\Yamba\libs\yambaclientlib.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="564ffd3f1dc6779da46f36e4cb78854ee45e6a1b"/>
+        sha1="4fb253ab8a81ff5297d46f2c15464a3ba32a4064"/>
     <item
         dex="C:\Users\Kees\AndroidStudioProjects\Yamba\Yamba\build\intermediates\pre-dexed\debug\support-v4-19.1.0-045441eb69c91158396ded00111ed595d5e00c3a.jar"
         jar="C:\Users\Kees\AppData\Local\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"

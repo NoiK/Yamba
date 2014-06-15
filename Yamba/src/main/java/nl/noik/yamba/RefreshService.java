@@ -52,7 +52,7 @@ public class RefreshService extends IntentService {
         YambaClient cloud = new YambaClient(username, password);
         try {
             int count = 0;
-            List<Status> timeline = cloud.getTimeline(1);
+            List<Status> timeline = cloud.getTimeline(30);
             for (Status status : timeline) {
                 values.clear();
                 values.put(StatusContract.Column.ID, status.getId());
