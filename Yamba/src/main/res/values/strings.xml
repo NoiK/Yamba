@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Yamba</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
@@ -16,4 +17,7 @@
     <string name="interval">Refresh Interval</string>
     <string name="interval_summary">How frequently should data refresh?</string>
     <string name="delete">Delete</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
 </resources>

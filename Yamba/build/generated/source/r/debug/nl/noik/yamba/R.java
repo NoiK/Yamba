@@ -842,6 +842,7 @@ containing a value of this type.
         public static final int dialog_fixed_height_minor=0x7f0a0014;
         public static final int dialog_fixed_width_major=0x7f0a0015;
         public static final int dialog_fixed_width_minor=0x7f0a0016;
+        public static final int widget_margin=0x7f0a0017;
     }
     public static final class drawable {
         public static final int abc_ab_bottom_solid_dark_holo=0x7f020000;
@@ -931,7 +932,8 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_launcher=0x7f020057;
+        public static final int example_appwidget_preview=0x7f020057;
+        public static final int ic_launcher=0x7f020058;
     }
     public static final class id {
         public static final int action_bar=0x7f09001c;
@@ -945,12 +947,13 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f090015;
         public static final int action_menu_presenter=0x7f090016;
         public static final int action_mode_close_button=0x7f090024;
-        public static final int action_purge=0x7f09004a;
-        public static final int action_refresh=0x7f090049;
-        public static final int action_settings=0x7f090047;
-        public static final int action_tweet=0x7f090048;
+        public static final int action_purge=0x7f09004b;
+        public static final int action_refresh=0x7f09004a;
+        public static final int action_settings=0x7f090048;
+        public static final int action_tweet=0x7f090049;
         public static final int activity_chooser_view_content=0x7f090025;
         public static final int always=0x7f09000f;
+        public static final int appwidget_text=0x7f090047;
         public static final int beginning=0x7f09000a;
         public static final int buttonTweet=0x7f09003f;
         public static final int checkbox=0x7f09002d;
@@ -1042,15 +1045,16 @@ containing a value of this type.
         public static final int activity_main=0x7f030019;
         public static final int activity_status=0x7f03001a;
         public static final int fragment_details=0x7f03001b;
-        public static final int fragment_item=0x7f030023;
+        public static final int fragment_item=0x7f030024;
         public static final int fragment_item_grid=0x7f03001c;
         public static final int fragment_item_list=0x7f03001d;
         public static final int fragment_status=0x7f03001e;
-        public static final int fragment_timeline=0x7f030024;
+        public static final int fragment_timeline=0x7f030025;
         public static final int fragment_timeline_grid=0x7f03001f;
         public static final int fragment_timeline_list=0x7f030020;
         public static final int list_item=0x7f030021;
         public static final int support_simple_spinner_dropdown_item=0x7f030022;
+        public static final int yamba_widget=0x7f030023;
     }
     public static final class menu {
         public static final int details=0x7f0e0000;
@@ -1072,21 +1076,23 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f0c000b;
         public static final int abc_shareactionprovider_share_with_application=0x7f0c000c;
         public static final int action_settings=0x7f0c000d;
-        public static final int app_name=0x7f0c000e;
-        public static final int delete=0x7f0c000f;
-        public static final int hello_world=0x7f0c0010;
-        public static final int interval=0x7f0c0011;
-        public static final int interval_summary=0x7f0c0012;
-        public static final int password=0x7f0c0013;
-        public static final int password_summary=0x7f0c0014;
-        public static final int refresh=0x7f0c0015;
-        public static final int status_button_tweet=0x7f0c0016;
-        public static final int status_text_hint=0x7f0c0017;
-        public static final int status_update=0x7f0c0018;
-        public static final int title_activity_main=0x7f0c0019;
-        public static final int tweet=0x7f0c001a;
-        public static final int username=0x7f0c001b;
-        public static final int username_summary=0x7f0c001c;
+        public static final int add_widget=0x7f0c000e;
+        public static final int app_name=0x7f0c000f;
+        public static final int appwidget_text=0x7f0c0010;
+        public static final int delete=0x7f0c0011;
+        public static final int hello_world=0x7f0c0012;
+        public static final int interval=0x7f0c0013;
+        public static final int interval_summary=0x7f0c0014;
+        public static final int password=0x7f0c0015;
+        public static final int password_summary=0x7f0c0016;
+        public static final int refresh=0x7f0c0017;
+        public static final int status_button_tweet=0x7f0c0018;
+        public static final int status_text_hint=0x7f0c0019;
+        public static final int status_update=0x7f0c001a;
+        public static final int title_activity_main=0x7f0c001b;
+        public static final int tweet=0x7f0c001c;
+        public static final int username=0x7f0c001d;
+        public static final int username_summary=0x7f0c001e;
     }
     public static final class style {
         /**  Customize your theme here. 
@@ -1235,6 +1241,7 @@ containing a value of this type.
     public static final class xml {
         public static final int main=0x7f050000;
         public static final int settings=0x7f050001;
+        public static final int yamba_widget_info=0x7f050002;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
