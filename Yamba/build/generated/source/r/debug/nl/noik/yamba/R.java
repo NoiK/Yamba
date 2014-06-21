@@ -947,13 +947,12 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f090015;
         public static final int action_menu_presenter=0x7f090016;
         public static final int action_mode_close_button=0x7f090024;
-        public static final int action_purge=0x7f09004b;
-        public static final int action_refresh=0x7f09004a;
-        public static final int action_settings=0x7f090048;
-        public static final int action_tweet=0x7f090049;
+        public static final int action_purge=0x7f09004a;
+        public static final int action_refresh=0x7f090049;
+        public static final int action_settings=0x7f090047;
+        public static final int action_tweet=0x7f090048;
         public static final int activity_chooser_view_content=0x7f090025;
         public static final int always=0x7f09000f;
-        public static final int appwidget_text=0x7f090047;
         public static final int beginning=0x7f09000a;
         public static final int buttonTweet=0x7f09003f;
         public static final int checkbox=0x7f09002d;
@@ -1054,7 +1053,7 @@ containing a value of this type.
         public static final int fragment_timeline_list=0x7f030020;
         public static final int list_item=0x7f030021;
         public static final int support_simple_spinner_dropdown_item=0x7f030022;
-        public static final int yamba_widget=0x7f030023;
+        public static final int widget=0x7f030023;
     }
     public static final class menu {
         public static final int details=0x7f0e0000;
@@ -1241,7 +1240,7 @@ containing a value of this type.
     public static final class xml {
         public static final int main=0x7f050000;
         public static final int settings=0x7f050001;
-        public static final int yamba_widget_info=0x7f050002;
+        public static final int yamba_widget=0x7f050002;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.

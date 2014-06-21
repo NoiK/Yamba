@@ -36,7 +36,6 @@ public class BootReceiver extends BroadcastReceiver {
             Log.d(TAG, "setting repeat operation for: " + interval);
         }
 
-        //context.startService(new Intent(context, RefreshService.class));
         Log.d(TAG, "onReceive");
     }
 }

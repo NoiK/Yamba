@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/list_item_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:Text="Slashdot"
+        android:text="Slashdot"
         android:textAppearance="?android:attr/textAppearanceSmall"
     />
 
@@ -27,7 +27,7 @@
         android:layout_alignBaseline="@+id/list_item_text_user"
         android:layout_alignBottom="@id/list_item_text_user"
         android:layout_alignParentTop="true"
-        android:Text="10 minutes ago"
+        android:text="10 minutes ago"
         android:textAppearance="?android:attr/textAppearanceSmall"
         />
 
@@ -35,16 +35,16 @@
         android:id="@+id/list_item_text_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:alignParentLeft="true"
+        android:layout_alignParentLeft="true"
         android:autoLink="web"
-        android:focusable="galse"
+        android:focusable="false"
         android:layout_below="@+id/list_item_text_created_at"
         android:layout_alignBaseline="@+id/list_item_text_message"
         android:layout_alignBottom="@id/list_item_text_message"
         android:layout_alignParentTop="true"
         android:linksClickable="true"
-        android:Text="The best!!"
+        android:text="The best!!"
         android:textAppearance="?android:attr/textAppearanceSmall"
         />
 
-</LinearLayout>
+</RelativeLayout>
